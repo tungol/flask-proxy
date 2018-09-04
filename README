@@ -1,0 +1,11 @@
+Fetches any url you pass to it, and serves the contents to you. Useful in very limited circumstances.
+
+Requires flask and requests.
+
+Example use:
+
+python run_proxy.py
+
+Then access:
+
+http://127.0.0.1:5000/http://google.com
